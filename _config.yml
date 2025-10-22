@@ -4,7 +4,7 @@ email: andre@publikey.ch # email of site's author
 url: https://letroglodyte.github.io # root address of the site
 baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed) 
-  <p> h3ll0 i4m l3+r0gl0dy+3  <br> i'm professional pixel's dealer. i co-founded a software company called publikey. we do stuff like: < keyword >. <br> i'm currently working on cool projects like an offline due diligence and compliance ai agent or a <a href="https://canary.wakweli.com"> proof of democracy protocol </a>. <br>  <br> > currently in switzerland.  <br> 
+  <p> h3ll0 i4m l3+r0gl0dy+3  <br> i'm professional pixel's dealer. i co-founded a software company called <a href="https://publikey.ch">publikey<a/>. we do stuff like: < keyword >. <br> i'm currently working on cool projects like an offline due diligence and compliance ai agent or a <a href="https://canary.wakweli.com">proof of democracy protocol</a>. <br>  <br> > currently in switzerland.  <br> 
   <br> <br> i'm into : computers (specially the imac g3), sci-fi / mystery / horror books, all kinds of music, touching grass, updates and science in general. <br> <br> i tend to avoid : super extroverts, rust (all kinds), night clubs and curious bears.<br> </p>
 
 permalink: /:slug.html
