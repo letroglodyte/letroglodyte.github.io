@@ -2,12 +2,11 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
+  - title: what about 
     entries:
       - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
-      - title: github repo
-        url: https://github.com/riggraz/no-style-please
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+      - title: "<a href='https://x.com/LeTroglodyte'>may be boring</a>"
+      - title: "<a href='https://www.linkedin.com/in/bezerraandre/'>profesh</a>"
 
   - title: all posts
     post_list:

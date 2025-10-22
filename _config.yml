@@ -1,14 +1,15 @@
-title: no style, please! # name of the site
-author: Riccardo Graziosi # name of site's author
-email: riccardo.graziosi97@gmail.com # email of site's author
-url: https://riggraz.dev # root address of the site
-baseurl: "/no-style-please" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
-description: > # description of the site (multiple lines allowed)
-  A (nearly) no-CSS, fast, minimalist Jekyll theme.
+title: letroglodyte # name of the site
+author: eltroglodyto # name of site's author
+email: andre@publikey.ch # email of site's author
+url: https://letroglodyte.github.io # root address of the site
+baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+description: > # description of the site (multiple lines allowed) 
+  <p> h3ll0 i4m l3+r0gl0dy+3  <br> i'm professional pixel's dealer. i co-founded a software company called publikey. we do cool stuff like: <keyword>. <br> i'm currently working on cool projects using ai like an offline due diligence and compliance ai agent. <br>  <br> > currently in switzerland. <br>  <br> 
+  <br> <br> i'm into : computers (specially the imac g3), sci-fi / mystery / horror books, all kinds of music, touching grass and science in general. <br> <br> i tend to avoid : super extroverts, rust (all kinds), night clubs and curious bears.<br> </p>
 
 permalink: /:slug.html
 
-favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+favicon: "favicon.png" # name+extension of favicon (which must be put on the root folder)
 # goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
 
 remote_theme: riggraz/no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
@@ -16,22 +17,17 @@ remote_theme: riggraz/no-style-please # if you are using GitHub Pages, change it
 theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
   back_home_text: ".." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: false # show blog description in home page
-  lowercase_titles: true # show titles in lowercase in lists
+  date_format: "%d-%m-%Y" # customize how date is formatted
+  show_description: true # show blog description in home page
+  lowercase_titles: true
 
 sass:
-  style: compressed
+  style: :compressed
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jektex
 
-jektex:
-  cache_dir: ".jektex-cache"
-  ignore: ["*.xml"]
-  silent: false
-  macros:
-    - ["\\Q", "\\mathbb{Q}"]
-    - ["\\C", "\\mathbb{C}"]
+collections:
+  reco:
+    output: true
