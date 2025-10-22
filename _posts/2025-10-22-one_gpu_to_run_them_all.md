@@ -1,7 +1,6 @@
 ---
 layout: post
 ---
-# one gpu to run them all
 
 finally, after months of experimentation, we successfully migrated our entire multi-model diffusion serving infrastructure from baseten to runpod — reducing gpu inference costs by over 90% while increasing flexibility and throughput.
 
