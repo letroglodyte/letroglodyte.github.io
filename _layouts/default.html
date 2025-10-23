@@ -4,7 +4,7 @@
   <body a="{{ site.theme_config.appearance | default: "auto" }}">
     <main class="page-content" aria-label="Content">
       <div class="w">
-        <img src="{{ site.baseurl }}/assets/images/holo.png" alt="holome" width="125" height="175" style="display:block;margin:2rem auto;background:transparent;border:none;box-shadow:none;">
+        <img src="{{ site.baseurl }}/assets/images/letroglodyte.png" alt="letroglodyte" width="125" height="175" style="display:block;margin:2rem auto;background:transparent;border:none;box-shadow:none;">
         {{ content }}
       </div>
     </main>
@@ -15,7 +15,7 @@
 
     {% if page.custom_js %}
       {% for js_file in page.custom_js %}
-        <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
+        <script type="text/javascript" src="{{ site.baseurl }}/assets/js/cool_text.js"></script>
       {% endfor %}
     {% endif %}
   </body>
