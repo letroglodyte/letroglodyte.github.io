@@ -1,14 +1,12 @@
-@import 'colors';
-
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
-html, body { background: $outer-bg-color; }
+html, body { background: #000000 }
 
 html { height: 100%; }
 
 body {
-  color: $fg-color;
+  color: #365ba5;
   font-family: monospace;
   font-size: 16px;
   line-height: 1.4;
@@ -49,7 +47,7 @@ li { margin: 0.4rem 0; }
   max-width: 700px;
   margin: 2em auto;
   padding: 1em 2rem;
-  background-color: $bg-color;
+  background-color: #000000;
   box-shadow: 3pt;
 }
 
@@ -74,6 +72,10 @@ code {
   background: black;
 }
 
+span{
+  color: #ffffff;
+}
+
 div.highlighter-rouge code {
   display: block;
   overflow-x: auto;
@@ -96,7 +98,7 @@ img {
 }
 
 a {
-  color: $link-color;
+  color: #f5a930;
 }
 
 
