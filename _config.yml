@@ -5,10 +5,10 @@ url: https://letroglodyte.github.io # root address of the site
 baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed) 
   <p> 
-    <br> i'm professional pixel's dealer. i co-founded a software company called <a href="https://publikey.ch">publikey</a>.
-    <br> i'm currently working on cool projects like an offline due diligence and compliance ai agent or a <a href="https://canary.wakweli.com">proof of democracy protocol</a>. 
-    <br> <br> i'm into : computers (specially the imac g3), sci-fi / mystery / horror books, all kinds of music, touching grass, updates and science in general.
-    <br> <br> i tend to avoid : super extroverts, rust (all kinds), night clubs and curious bears.<br> 
+    <br> hi, i'm andré. i graduated in 2017 with a master's degree in information systems from hec lausanne . i co-founded in 2021 a software company called <a href="https://publikey.ch">publikey</a>.
+    <br> i'm currently working those cool projects : an offline due diligence and compliance ai agent for the company<a href="https://inv3nt.ch/"> inv3nt</a> and a <a href="https://canary.wakweli.com">proof of democracy protocol</a>. 
+    <br> <br> i like : <span id="like"></span>.
+    <br> <br> i tend to avoid : <span id="avoid"></span>.<br> 
   </p>
 
 permalink: /:slug.html
@@ -23,8 +23,7 @@ theme_config:
   back_home_text: ".." # customize text for homepage link in post layout
   date_format: "%d-%m-%Y" # customize how date is formatted
   show_description: true # show blog description in home page
-  lowercase_titles: true
-
+  lowercase_titles: true # make all titles lowercase
 sass:
   style: :compressed
 
