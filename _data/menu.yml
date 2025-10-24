@@ -7,7 +7,7 @@ entries:
       - title: "<a href='https://x.com/LeTroglodyte'>x</a>"
       - title: "<a href='https://www.linkedin.com/in/bezerraandre/'>in</a>"
 
-  - title: <b> my optimistic rants </b>
+  - title: <b> my side quests </b>
     entries:
       - title: readme... >
-        url: archive.html
+        url: side_quests.html
