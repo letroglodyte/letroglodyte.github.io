@@ -7,9 +7,9 @@ i've recently come across the following [blog](https://ethanlazuk.com/blog/how-d
 the project's objective is to basically create a local smart answering machine that replies with high precision given a basic context. 
 
 the requirements for the project were straightforward: 
- > build a rag
- > feed context to local llm
- > stream response 
+ - build a rag
+ - feed context to local llm
+ - stream response 
 
 as testing started, some issues in the quality of the data and thus the replies started showing and what started as a simple local answering machine turned out to grow much more like a smart scrapping service.
 
